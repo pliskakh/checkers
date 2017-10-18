@@ -1,0 +1,136 @@
+body{
+  background-color: #E0E0E0
+;
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-checkers {
+	position: absolute;
+	margin: auto;
+	width: 80vmin;
+	height: 80vmin;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #FFCA28;
+	border: 30px solid #424242
+
+;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.ba-checkers-title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #78909C; }
+
+.row {
+	position: relative;
+	height: 12.5%;
+	width: 100%;
+}
+  .row:nth-child(odd) .cell:nth-child(even),
+  .row:nth-child(even) .cell:nth-child(odd) {
+    background-color: #212121
+; 
+  }
+
+  .cell {
+  	position: absolute;
+  	width: 12.5%;
+  	height: 100%;
+  	top: 0; 
+  }
+
+ .cell-1 {
+  left: calc(12.5% * (1 - 1)); }
+
+.cell-2 {
+  left: calc(12.5% * (2 - 1)); }
+
+.cell-3 {
+  left: calc(12.5% * (3 - 1)); }
+
+.cell-4 {
+  left: calc(12.5% * (4 - 1)); }
+
+.cell-5 {
+  left: calc(12.5% * (5 - 1)); }
+
+.cell-6 {
+  left: calc(12.5% * (6 - 1)); }
+
+.cell-7 {
+  left: calc(12.5% * (7 - 1)); }
+
+.cell-8 {
+  left: calc(12.5% * (8 - 1)); }
+
+.piece {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  margin: 7.5px auto; }
+  .piece-red, .piece-white {
+    border-radius: 50%; }
+  .piece-red {
+    background-color: #F44336; }
+  .piece-white {
+    background-color: #CFD8DC; }
+
+
+
+
+
+
+
