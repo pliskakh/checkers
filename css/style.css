@@ -117,10 +117,14 @@ textarea {
   left: calc(12.5% * (8 - 1)); }
 
 .piece {
-  position: relative;
+  position: absolute;
   width: 80%;
   height: 80%;
-  margin: 7.5px auto; }
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;}
   .piece-red, .piece-white {
     border-radius: 50%; }
   .piece-red {
